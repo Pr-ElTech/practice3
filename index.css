@@ -17,12 +17,19 @@ main{
 width: 300px;
 height: 80vh;
 background-color: beige;
-
+ & h1{
+    background-color: blueviolet;
+ }
 
 & ul{
     list-style-type: none;
     display: flex;
     gap: 20px;
+    flex-direction: column;
+}
+
+& h2{
+background-color: firebrick;
 }
 
 }
